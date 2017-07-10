@@ -1,0 +1,18 @@
+{
+    "name": "quantity-digital/qd-signups",
+    "description": "Programmatic signup forms for Wordpress using the JSON REST API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolaj Kirkegaard Nielsen",
+            "email": "nn@quantitydigital.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "QD\\Signups\\": "src/"
+        }
+    },
+    "require": {}
+}
