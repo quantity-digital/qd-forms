@@ -14,5 +14,11 @@
             "QD\\Signups\\": "src/"
         }
     },
-    "require": {}
+    "scripts": {
+        "test": "phpunit --colors=always"
+    },
+    "require": {},
+    "require-dev": {
+        "10up/wp_mock": "dev-dev"
+    }
 }
